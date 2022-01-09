@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Indie+Flower&family=Kite+One&family=Licorice&family=Shizuru&display=swap');
+:root {
+    --Licorice: Licorice;
+    --Indie-Flower: Indie Flower;
+    --Shizuru: Shizuru;
+    --Gloria-Hallelujah: Gloria Hallelujah;
+    --Kite-One: Kite One;
+    --Handlee: Handlee;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: var(--Licorice);
+    font-size: 5.625rem;
+    line-height: 2;
+    color: #66BFBF;
+}
+h2 {
+    font-family: var(--Indie-Flower);
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+h3 {
+    color: #11999E;
+    font-family: var(--Kite-One);
+}
+p {
+    font-family: var(--Handlee);
+    font-size: 1.125rem;
+}
+.top-container {
+    background: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+.mypfp {
+    object-fit: cover;
+    width: 25%;
+    border-radius: 50%;
+}
+.profile p {
+    width: 50%;
+    margin: 0 auto;
+}
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 35px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+}
+
+.middle-container {
+    margin-top: 48px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+.skill-row-img1 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row-img2 {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.dops {
+    font-size: 4rem;
+    color: #D0DBDB;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 20px;
+    background: linear-gradient(#11cdd4, #11999e);
+    border-radius: 8px;
+}
+.btn:hover{
+    background: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+    margin-top: 48px;
+    padding: 30px;
+    background: #66BFBF;
+}
+.bottom-container p {
+    color: #EAF6F6;
+}
+.bottom-container a {
+    color: #11999E;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 5px 15px;
+}
+
+
+@media (max-width: 1024px) {
+    .top-cloud {
+        right: 200px;
+    }
+    .bottom-cloud {
+        left: 200px;
+    }
+}
