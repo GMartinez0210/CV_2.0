@@ -122,3 +122,10 @@ p {
         left: 200px;
     }
 }
+
+@media (max-width: 650px) {
+    .bottom-mountain {
+     margin-top: 68px;
+     width: 80%;   
+    }
+}
